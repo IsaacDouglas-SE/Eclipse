@@ -1,0 +1,8 @@
+class EResults{
+	
+	public static void main(String xyz[]){
+		Exam School=new Exam(400);
+		Exam College=new Exam(600);
+		School.ShowResults(200);
+	}
+}

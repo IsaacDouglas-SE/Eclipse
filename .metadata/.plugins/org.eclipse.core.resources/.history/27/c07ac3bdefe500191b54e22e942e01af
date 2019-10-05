@@ -1,0 +1,7 @@
+package Mathmain;
+
+public class Mathmain {
+	public static void main(String[] args) {
+		
+	}
+}

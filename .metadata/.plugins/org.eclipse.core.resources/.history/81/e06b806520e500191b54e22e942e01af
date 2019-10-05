@@ -1,0 +1,12 @@
+package inherit;
+
+public class inherit extends NBSMath{
+	public void multiply(int A,int B) {
+		int Result=A*B;
+		System.out.println("Result is"+Result);
+	}
+public void sub(int A,int B) {
+	int R=A-B;
+	System.out.println("Result is"+R);
+}
+}

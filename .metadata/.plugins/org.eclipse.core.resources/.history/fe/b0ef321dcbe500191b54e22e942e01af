@@ -1,0 +1,6 @@
+package Found;
+
+public class Found {
+	(String msg, String lookfor)
+
+}

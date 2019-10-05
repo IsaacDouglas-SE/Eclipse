@@ -1,0 +1,8 @@
+package Extending;
+
+public class Bank {
+int A;
+public void message() {
+	system.out.println("hello");
+}
+}

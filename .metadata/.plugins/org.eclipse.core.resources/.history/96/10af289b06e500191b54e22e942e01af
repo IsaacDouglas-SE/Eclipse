@@ -1,0 +1,22 @@
+class Exam {
+	private int TotalMarks;
+	public Exam(int marks) {
+		TotalMarks=marks;
+	}
+	public void ShowResults(int marksobt) {
+	float per = (float) marksobt*100/TotalMarks;
+	if(per>=60) {
+		System.out.println("You have passed the exam");
+		}
+		else {
+			System.out.println("You have failed the exam");
+		}
+	}
+}
+class EResults{
+public static void main(String args[]){
+Exam School=new Exam(400);
+Exam College=new Exam(600);
+School.ShowResults(200);
+	}
+}
